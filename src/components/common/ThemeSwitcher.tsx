@@ -1,6 +1,6 @@
 import {Switch, Tooltip} from "@nextui-org/react";
-import {SunIcon} from "../icon/SunIcon.tsx";
-import {MoonIcon} from "../icon/MoonIcon.tsx";
+import {SunIcon} from "./icon/SunIcon.tsx";
+import {MoonIcon} from "./icon/MoonIcon.tsx";
 
 const ThemeSwitcher = () => {
     const toggleTheme = (isSelected: boolean) => {
